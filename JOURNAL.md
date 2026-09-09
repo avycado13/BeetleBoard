@@ -1,0 +1,15 @@
+---
+title: "BeetleBoard"
+github: "avycado13/beetleboard"
+description: "a basic board for making versatile beetleweight battlebots"
+created_at: "2026-09-08"
+---
+
+# September 8
+My friend wants to do more battlebot type things with 5th and 6th graders so I thought I might make a board that has enough motor and servo ports to be useful for all types of bots and not constrained to one. I guess im calling it BeetleBoard!
+ 
+## September 8: Added basic power circuitry
+I made my circuit to take a LiPo battery and then first it goes through a TVS Diode to proetect it from voltage spikes. Then it gets decoupled through 4 Capacitors and toned down to 5v with a buck converter. I also added some battery charge sensing. (I took heavy inspiration from kieran's [Holy Guacamole](https://github.com/taciturnaxolotl/holy-guacamole/))
+
+![Power subsheet](https://cdn.hackclub.com/01a08893-910c-7a69-a05c-7df8fe556bb7/beetleboard-1.png)
+**Total time spent: 2h**
