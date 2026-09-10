@@ -30,4 +30,10 @@ After taking way too long to understand the difference between PWM and DShot, i 
 ![Main Sheet](https://cdn.hackclub.com/01a089ff-d48e-718a-a0f3-08e72b2689d6/beetleboard-3.png)
 **Total time spent: 2h**
 
-# Sep 10
+# September 10
+
+## September 10: added 6 axis IMU
+I was on a huddle with Kian and he told me about the MPU-6050 which is a 6 axis imu. I was debating whether to put an imu on this as it would have been a lot of work to wire up multiple so this board simplifies it alot. it was actually really simple to wire up as it just used i2c (TIL that its pronoucned i squared c) I also added a test point on the 5V Rail and GND.
+I might add a header on the board to connect to a radio reciever as apparently esp32 wifi signals dont work that great.
+ ![](https://cdn.hackclub.com/01a08c5c-1dc9-76da-9a88-03068a8e085d/beetleboard-4.png)
+**Total time spent: 1h**
