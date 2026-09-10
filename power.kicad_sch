@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "cddf094b-0159-48e9-8d4f-03764da05336")
 	(paper "A4")
+	(title_block
+		(title "BeetleBoard Power")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -441,6 +444,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SMAJ15CA"
 			(pin_numbers
 				(hide yes)
@@ -721,206 +1042,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Resistor:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-				(at 0 -4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at -1.27 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "RES-07856"
-				(at 0 -6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -1.143 -1.016) (xy -1.524 0) (xy -1.905 1.016) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.381 -1.016) (xy 0 0) (xy -0.381 1.016) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.905 -1.016) (xy 1.524 0) (xy 1.143 1.016) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,7 +1569,19 @@
 		(uuid "0e4d5a3e-3225-425d-a0b5-9c51d92f941b")
 	)
 	(junction
-		(at 97.79 44.45)
+		(at 67.31 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248b5bed-01c3-4c00-a3a1-8a75d8c86ec5")
+	)
+	(junction
+		(at 201.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8e8334-bef5-4d29-8da2-a1170d4213e0")
+	)
+	(junction
+		(at 85.09 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ee0f4c3-f387-4807-b75e-53c183975260")
@@ -1472,7 +1605,7 @@
 		(uuid "6008b5d8-f9cd-4515-92fa-677dd114c1bc")
 	)
 	(junction
-		(at 97.79 34.29)
+		(at 85.09 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9138b6fb-deed-444c-b1cb-9149ab14ee93")
@@ -1484,48 +1617,32 @@
 		(uuid "9d8c27e3-9b29-42f4-bdae-e3088d75c60b")
 	)
 	(junction
-		(at 107.95 44.45)
+		(at 95.25 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa269599-061e-45c7-a38e-b7bf10120c48")
 	)
 	(junction
-		(at 107.95 34.29)
+		(at 95.25 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba31a132-4043-4a2c-bb54-6656f49ae5ef")
 	)
 	(junction
-		(at 67.31 82.55)
+		(at 198.12 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd3c071f-5e44-4442-8c61-4b1a5ede86c5")
-	)
-	(junction
-		(at 187.96 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdb239bc-8b2e-407b-bef7-5b4c692c3367")
+		(uuid "dedd02fb-bae3-4e1b-be9a-26b9edc5adbf")
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 107.95 43.18)
+			(xy 95.25 33.02) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "080058c3-9c7c-4873-a5df-513485f7a170")
-	)
-	(wire
-		(pts
-			(xy 67.31 82.55) (xy 78.74 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09cd0d7a-2239-4b6e-b242-5d547ff7f308")
 	)
 	(wire
 		(pts
@@ -1539,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 44.45) (xy 118.11 43.18)
+			(xy 105.41 33.02) (xy 105.41 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 97.79 34.29)
+			(xy 74.93 22.86) (xy 85.09 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1676,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 44.45) (xy 97.79 43.18)
+			(xy 198.12 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e896c4-b5ab-4cd2-a6fb-d53d9843065f")
+	)
+	(wire
+		(pts
+			(xy 85.09 33.02) (xy 85.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 118.11 44.45)
+			(xy 95.25 33.02) (xy 105.41 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1589,13 +1716,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 43.18) (xy 144.78 43.18)
+			(xy 67.31 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fb65c3d-df7a-4520-a503-b697f2def1a7")
+		(uuid "3fcecd6e-5f31-4e10-a312-cbe3d98c3c06")
 	)
 	(wire
 		(pts
@@ -1629,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 34.29) (xy 107.95 34.29)
+			(xy 85.09 22.86) (xy 95.25 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 97.79 44.45)
+			(xy 74.93 33.02) (xy 85.09 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 107.95 35.56)
+			(xy 95.25 22.86) (xy 95.25 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 87.63 35.56)
+			(xy 74.93 22.86) (xy 74.93 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 50.8) (xy 187.96 50.8)
+			(xy 209.55 50.8) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 34.29) (xy 97.79 35.56)
+			(xy 85.09 22.86) (xy 85.09 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 87.63 43.18)
+			(xy 74.93 33.02) (xy 74.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 38.1) (xy 153.67 38.1)
+			(xy 151.13 26.67) (xy 153.67 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1906,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 118.11 34.29)
+			(xy 208.28 25.4) (xy 210.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1a1e05-7d60-4aa6-a843-4f155d220f25")
+	)
+	(wire
+		(pts
+			(xy 95.25 22.86) (xy 105.41 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 35.56) (xy 187.96 34.29)
+			(xy 198.12 34.29) (xy 198.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 34.29) (xy 118.11 35.56)
+			(xy 105.41 22.86) (xy 105.41 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1829,17 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 153.67 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c2a0ed-342d-4ee7-928e-d705894496a1")
-	)
-	(wire
-		(pts
-			(xy 187.96 25.4) (xy 187.96 26.67)
+			(xy 198.12 24.13) (xy 198.12 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 44.45) (xy 107.95 44.45)
+			(xy 85.09 33.02) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1877,8 +2004,8 @@
 		)
 		(uuid "ff7c4e2e-2e75-440c-9aa8-1b8643f23c1c")
 	)
-	(label "VFD"
-		(at 173.99 43.18 0)
+	(label "VFB"
+		(at 173.99 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +2015,7 @@
 		(uuid "0c3dd2b8-f7b5-4508-9845-e187187be9d7")
 	)
 	(label "VBST"
-		(at 187.96 35.56 0)
+		(at 198.12 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1898,7 +2025,7 @@
 		(uuid "26e32dc9-7107-4c93-9c6c-13facd5f2787")
 	)
 	(label "VBST"
-		(at 173.99 40.64 0)
+		(at 173.99 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,8 +2034,8 @@
 		)
 		(uuid "2b55ea61-c258-4f3a-b3ef-d6bee01a91b6")
 	)
-	(label "VFD"
-		(at 195.58 50.8 0)
+	(label "VFB"
+		(at 209.55 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1918,7 +2045,7 @@
 		(uuid "888174a1-c23b-4dd1-927e-413443b1603b")
 	)
 	(label "SW"
-		(at 187.96 25.4 0)
+		(at 198.12 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1928,7 +2055,7 @@
 		(uuid "99edf630-044c-49da-8e0d-41050bb2862c")
 	)
 	(label "SW"
-		(at 173.99 38.1 0)
+		(at 173.99 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,6 +2063,17 @@
 			(justify left bottom)
 		)
 		(uuid "f17eb655-4ad2-463b-bff1-6dfeaf128a1c")
+	)
+	(hierarchical_label "BUCK_EN"
+		(shape input)
+		(at 153.67 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "128ead9b-549d-4010-8fc8-a24aa091a53e")
 	)
 	(hierarchical_label "VBAT_SNS"
 		(shape input)
@@ -1949,8 +2087,8 @@
 		(uuid "3aa99595-92ca-4ff3-a424-1fbfbeb92283")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 107.95 39.37 0)
+		(lib_id "Device:R")
+		(at 201.93 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1958,9 +2096,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "08084d47-2edd-40b8-afdd-7c352f623772")
-		(property "Reference" "C1"
-			(at 110.49 38.1 0)
+		(fields_autoplaced yes)
+		(uuid "02488c74-364e-4b1d-82e7-6189e8bb4182")
+		(property "Reference" "R7"
+			(at 204.47 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1970,8 +2109,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 110.49 40.64 0)
+		(property "Value" "56K"
+			(at 204.47 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1982,7 +2121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.9152 43.18 0)
+			(at 200.152 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,7 +2132,168 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 39.37 0)
+			(at 201.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af9fe12f-5057-4a94-b9b3-7d175588214d")
+		)
+		(pin "1"
+			(uuid "163b354a-e046-49ff-a08a-3c93fe7de00e")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05dfbc9f-dd82-4bf7-9956-30b31b60afa9")
+		(property "Reference" "R10"
+			(at 60.96 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120k"
+			(at 60.96 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 84.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f209c42e-97e3-47f8-9a8a-aa6923f5aab5")
+		)
+		(pin "1"
+			(uuid "20396884-1263-4184-97c0-9edf402e162a")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08084d47-2edd-40b8-afdd-7c352f623772")
+		(property "Reference" "C1"
+			(at 97.79 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 97.79 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2004,7 +2304,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 39.37 0)
+			(at 95.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +2331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 39.37 0)
+		(at 105.41 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2041,7 +2341,7 @@
 		(dnp no)
 		(uuid "115542f4-d553-4383-adcb-e405d149a1b3")
 		(property "Reference" "C4"
-			(at 120.65 38.1 0)
+			(at 107.95 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2052,7 +2352,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 120.65 40.64 0)
+			(at 107.95 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2063,7 +2363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.0752 43.18 0)
+			(at 106.3752 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2074,7 +2374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 39.37 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2085,7 +2385,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 39.37 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,10 +2396,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965870")
+			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965871")
 		)
 		(pin "2"
-			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266102")
+			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266103")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -2111,101 +2411,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 187.96 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "159d787f-3434-4311-b21e-2bec2dfb4521")
-		(property "Reference" "R3"
-			(at 190.5 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "56k"
-			(at 190.5 48.2599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 192.532 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 196.85 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 194.818 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "280f7e7a-a333-4a97-bd24-120b53afeddd")
-		)
-		(pin "1"
-			(uuid "8494fc47-5a93-448a-8093-2ceaafe1895a")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 107.95 44.45 0)
+		(at 95.25 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2216,7 +2423,7 @@
 		(fields_autoplaced yes)
 		(uuid "1afdbf38-121a-4dd0-933c-7a5dca7dad57")
 		(property "Reference" "#PWR06"
-			(at 107.95 50.8 0)
+			(at 95.25 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 48.26 0)
+			(at 95.25 36.83 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2237,7 +2444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 44.45 0)
+			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 44.45 0)
+			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 53.34 0)
+			(at 95.25 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,192 +2483,6 @@
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 187.96 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "251735a8-9b29-4b46-8b43-28a76d6a803a")
-		(property "Reference" "R2"
-			(at 190.5 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 190.5 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 192.532 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 196.85 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 194.818 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "280f7e7a-a333-4a97-bd24-120b53afeddd")
-		)
-		(pin "1"
-			(uuid "8494fc47-5a93-448a-8093-2ceaafe1895a")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 67.31 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29129cc6-fc78-48ec-9a04-f3a34cfd199f")
-		(property "Reference" "R5"
-			(at 69.85 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33.2k"
-			(at 69.85 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 71.882 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 76.2 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 74.168 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efd519df-e627-45ea-b048-74f30b4f210f")
-		)
-		(pin "2"
-			(uuid "815cdc79-7481-46b3-9028-fb1e97c8555c")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2568,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS563200")
-		(at 163.83 40.64 0)
+		(at 163.83 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2558,7 +2579,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c29f453-3bfd-413f-802a-cb5895a93d40")
 		(property "Reference" "U2"
-			(at 163.83 30.48 0)
+			(at 163.83 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2568,7 +2589,7 @@
 			)
 		)
 		(property "Value" "TPS563200"
-			(at 163.83 33.02 0)
+			(at 163.83 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2578,7 +2599,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 165.1 46.99 0)
+			(at 165.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
-			(at 163.83 40.64 0)
+			(at 163.83 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2601,7 +2622,7 @@
 			)
 		)
 		(property "Description" "3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
-			(at 163.83 40.64 0)
+			(at 163.83 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2661,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 163.83 48.26 0)
+		(at 163.83 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2651,7 +2672,7 @@
 		(fields_autoplaced yes)
 		(uuid "327b03c8-5d74-4d7d-9859-7ded122f804f")
 		(property "Reference" "#PWR07"
-			(at 163.83 54.61 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +2683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 52.07 0)
+			(at 163.83 40.64 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2672,7 +2693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 48.26 0)
+			(at 163.83 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 48.26 0)
+			(at 163.83 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 57.15 0)
+			(at 163.83 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2717,8 +2738,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 107.95 34.29 0)
+		(lib_id "Device:L")
+		(at 204.47 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2727,10 +2748,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36e4a15a-56d7-4ead-8f4d-a7718ec9de4f")
-		(property "Reference" "#PWR05"
-			(at 107.95 38.1 0)
-			(hide yes)
+		(uuid "32e32f8f-2ad1-4f5b-8025-f2b9ba5017a5")
+		(property "Reference" "L1"
+			(at 204.47 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2739,8 +2759,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 107.95 29.21 0)
+		(property "Value" "4.7uH"
+			(at 204.47 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2750,7 +2770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 34.29 0)
+			(at 204.47 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +2781,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 34.29 0)
+			(at 204.47 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 204.47 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fa211a6-d6b6-4cd6-8b73-9028f612ba56")
+		)
+		(pin "2"
+			(uuid "86c7ccd0-93bd-418a-b775-8f85ba09c5de")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36e4a15a-56d7-4ead-8f4d-a7718ec9de4f")
+		(property "Reference" "#PWR05"
+			(at 95.25 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 107.95 34.29 0)
+			(at 95.25 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2897,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 30.48 0)
+		(at 198.12 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2807,7 +2908,7 @@
 		(fields_autoplaced yes)
 		(uuid "37e2ff5e-a8d6-4e3e-ba2d-b6c824f37da8")
 		(property "Reference" "C5"
-			(at 191.77 29.2099 0)
+			(at 201.93 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2818,7 +2919,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 191.77 31.7499 0)
+			(at 201.93 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2829,7 +2930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 188.9252 34.29 0)
+			(at 199.0852 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 30.48 0)
+			(at 198.12 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,7 +2952,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 187.96 30.48 0)
+			(at 198.12 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,6 +2972,84 @@
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 201.93 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad5709e-b31d-457e-bbd4-e096b0911fbb")
+		(property "Reference" "#PWR011"
+			(at 201.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b174cdf9-ff60-464e-af99-56b1b7ff442c")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3196,264 +3375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 60.96 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e63c103-fec3-49df-a106-522471fb77e7")
-		(property "Reference" "R4"
-			(at 59.69 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120k"
-			(at 59.69 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 60.96 87.122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 59.69 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 60.96 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "768a26ff-4093-44dc-ad8c-c1b9b626f35b")
-		)
-		(pin "2"
-			(uuid "b7e36bf5-5a3b-4e65-99dd-18f0c72ed185")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 142.24 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7493a080-00aa-455f-be1e-c8a2cc03e11a")
-		(property "Reference" "#PWR09"
-			(at 142.24 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 142.24 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 142.24 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e926a989-aeb9-4560-993f-7866b7161cf2")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 148.59 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75fe463f-d1d3-4317-8f21-e5eee6b91649")
-		(property "Reference" "R1"
-			(at 147.32 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 147.32 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 148.59 47.752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 147.32 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 148.59 50.038 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d226166e-72f3-4e3a-ac19-dc7130086cde")
-		)
-		(pin "2"
-			(uuid "628aedc5-93c5-4864-af6b-dd52c9a3676f")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 95.25 87.63 180)
 		(unit 1)
@@ -3691,8 +3612,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 187.96 58.42 0)
+		(lib_id "Device:R")
+		(at 67.31 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3701,30 +3622,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6be907e-21d4-40a4-b987-857be627e9b5")
-		(property "Reference" "#PWR010"
-			(at 187.96 64.77 0)
-			(hide yes)
+		(uuid "9d42b3df-5704-4eac-bdc5-5fb5fe2c21a8")
+		(property "Reference" "R9"
+			(at 69.85 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 187.96 62.23 0)
+		(property "Value" "33.2k"
+			(at 69.85 87.6299 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 58.42 0)
+			(at 65.532 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3735,7 +3657,166 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 58.42 0)
+			(at 67.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b91b086c-d18d-4450-9d4e-b01c36067e01")
+		)
+		(pin "1"
+			(uuid "ee8a5df9-cbb0-4938-911d-af236b6a31e6")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3260baf-b80c-45fa-8db0-3c17bcc23f18")
+		(property "Reference" "#PWR020"
+			(at 210.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 210.82 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a90e1856-eb75-4164-86bc-66a1ee94b209")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 201.93 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6be907e-21d4-40a4-b987-857be627e9b5")
+		(property "Reference" "#PWR010"
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 62.23 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 67.31 0)
+			(at 201.93 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,6 +3928,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b592797a-a5d2-44e9-8f94-109ea304eb6b")
+		(property "Reference" "R8"
+			(at 204.47 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 204.47 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.152 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ac8a195-13ea-416d-8dc2-4cd03ac8a78c")
+		)
+		(pin "1"
+			(uuid "7bafb13e-3a67-40f7-a1e1-8233d3b048ec")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 248.92 48.26 0)
 		(unit 1)
@@ -3929,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 87.63 39.37 0)
+		(at 74.93 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3939,7 +4102,7 @@
 		(dnp no)
 		(uuid "c0c4f80d-7504-4353-ab38-a728c2c45ddb")
 		(property "Reference" "C3"
-			(at 90.17 38.1 0)
+			(at 77.47 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +4113,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 90.17 40.64 0)
+			(at 77.47 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3961,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.5952 43.18 0)
+			(at 75.8952 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 39.37 0)
+			(at 74.93 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +4146,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 39.37 0)
+			(at 74.93 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,10 +4157,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965870")
+			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965872")
 		)
 		(pin "2"
-			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266102")
+			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266104")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -4244,7 +4407,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 151.13 38.1 0)
+		(at 151.13 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4255,7 +4418,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2c55393-e9df-40ce-920d-2be3bc157e26")
 		(property "Reference" "#PWR08"
-			(at 151.13 41.91 0)
+			(at 151.13 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4429,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 151.13 33.02 0)
+			(at 151.13 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4276,7 +4439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 38.1 0)
+			(at 151.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4287,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 38.1 0)
+			(at 151.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4298,7 +4461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 151.13 38.1 0)
+			(at 151.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,7 +4567,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 39.37 0)
+		(at 85.09 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4414,7 +4577,7 @@
 		(dnp no)
 		(uuid "f450283e-451e-40ca-95ae-6e1f172942aa")
 		(property "Reference" "C2"
-			(at 100.33 38.1 0)
+			(at 87.63 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4425,7 +4588,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 100.33 40.64 0)
+			(at 87.63 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4436,7 +4599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.7552 43.18 0)
+			(at 86.0552 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 39.37 0)
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4458,7 +4621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 39.37 0)
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,93 +4632,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965870")
+			(uuid "3175cc1c-5f6b-416f-a8a2-3016ee965873")
 		)
 		(pin "2"
-			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266102")
+			(uuid "1d0098a8-6db4-4a91-9f5a-57013d266105")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 187.96 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe47a967-5d09-4306-9425-5c2401d3395f")
-		(property "Reference" "#PWR011"
-			(at 187.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 187.96 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 187.96 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c42542dc-9f52-4cf5-bef4-2d66309f6b75")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)

@@ -13,3 +13,11 @@ I made my circuit to take a LiPo battery and then first it goes through a TVS Di
 
 ![Power subsheet](https://cdn.hackclub.com/01a08893-910c-7a69-a05c-7df8fe556bb7/beetleboard-1.png)
 **Total time spent: 2h**
+
+# September 9: Fixed power circuitry
+
+So i might be a bit dumb and have for gotten some stuff, so i fixed that up and needed to fiddle with kicad libraries.
+Also, i kinda gave up on implementing a proper undervolting lockout circuit in hardware, so i will just use my voltage sensing to control the enable pin in software
+
+![Power Subsheet Rev. 2](https://cdn.hackclub.com/01a089e2-8680-7bc0-ba7c-a442a68f6c99/beetleboard-2.png)
+**Total time spent: 1h**
