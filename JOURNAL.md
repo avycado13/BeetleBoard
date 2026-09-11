@@ -43,3 +43,9 @@ I kinda forgot that the ESCs require a seperate source of power with a higher vo
 
 ![New power subsheet with distrubution](https://cdn.hackclub.com/01a08e46-c094-7faf-a64d-3834eafe02d6/beetleboard-5.png)
 **Total time spent: 1h**
+
+# September 11: Fixed IMU
+I realized that my original IMU wouldn't be able to handle more than 16G, which is really low because on impact it could hit 200G and for meltybrains it would overload becuase of spinny. Instead I replaced it with a LSM6DSV320XTR 6 axis IMU that could handle up to 300G. I wired it over SPI to connect everything andd I put it in its own sheet.
+
+![New IMU over SPI](https://cdn.hackclub.com/01a08f7a-3afe-79aa-b7a9-d753bbda1060/beetleboard-6.png)
+**Total time spent: 1.5h**

@@ -424,7 +424,7 @@
         "uuid": "9605da46-1c89-49d6-a09b-d7927d14e15a"
       }
     ],
-    "used_designators": "SW1-2,#FLG1-4,L1-2,JP1-2,R1-10,C1-10,D1-9,#PWR1-4,#PWR6-49,J1-16,TP1-5,U1-5",
+    "used_designators": "SW1-2,L1-2,#FLG1-4,JP1-2,R1-15,C1-10,D1-9,#PWR1-4,#PWR6-49,J1-17,TP1-5,U1-5",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "ca7e18ec-fa3d-4dbe-9577-def8e404d694",
       "Power"
+    ],
+    [
+      "e9c05605-3707-44d5-9770-de865022d47c",
+      "imu"
     ]
   ],
   "text_variables": {},

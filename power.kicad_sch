@@ -4603,10 +4603,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed7")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604213")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -4686,10 +4686,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed8")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604214")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -5005,10 +5005,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed9")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604215")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -5166,10 +5166,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51eda")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604216")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -5796,10 +5796,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51edb")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604217")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -6751,10 +6751,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51edc")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604218")
 		)
 		(instances
 			(project "BeetleBoard"
@@ -6991,10 +6991,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51edd")
 		)
 		(pin "2"
-			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604219")
 		)
 		(instances
 			(project "BeetleBoard"
