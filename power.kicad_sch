@@ -762,7 +762,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ15CA"
+		(symbol "Diode:SMAJ40CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -785,7 +785,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ15CA"
+			(property "Value" "SMAJ40CA"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -817,7 +817,7 @@
 					)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 40.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -850,7 +850,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ15CA_0_1"
+			(symbol "SMAJ40CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -900,7 +900,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ15CA_1_1"
+			(symbol "SMAJ40CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1139,6 +1139,156 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1798,6 +1948,30 @@
 		)
 	)
 	(rectangle
+		(start 34.29 67.31)
+		(end 125.73 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "01df6f15-9c28-4589-bd33-f4ac5d26a256")
+	)
+	(rectangle
+		(start 199.39 67.31)
+		(end 264.16 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "064c8ee6-7c2a-4c62-a97d-7b0487cb042a")
+	)
+	(rectangle
 		(start 34.29 16.51)
 		(end 264.16 64.77)
 		(stroke
@@ -1808,6 +1982,18 @@
 			(type none)
 		)
 		(uuid "59c63a17-658d-4d5c-9343-f559c458c8ae")
+	)
+	(rectangle
+		(start 34.29 107.95)
+		(end 127 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eaa4ac8c-6b5d-40d9-8f04-04867481d91a")
 	)
 	(text "5V Buck Converter + VBUS Stuff"
 		(exclude_from_sim no)
@@ -1820,7 +2006,7 @@
 		(uuid "bdf4d9ae-d37d-40f8-a014-ae380548ea80")
 	)
 	(junction
-		(at 48.26 35.56)
+		(at 62.23 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c9273b7-5e63-4eb0-bbb7-89b2cd18e097")
@@ -1838,13 +2024,19 @@
 		(uuid "248b5bed-01c3-4c00-a3a1-8a75d8c86ec5")
 	)
 	(junction
+		(at 49.53 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c520b1d-4b44-4afd-b035-16501b8c3f1d")
+	)
+	(junction
 		(at 201.93 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d8e8334-bef5-4d29-8da2-a1170d4213e0")
 	)
 	(junction
-		(at 85.09 33.02)
+		(at 107.95 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ee0f4c3-f387-4807-b75e-53c183975260")
@@ -1862,10 +2054,28 @@
 		(uuid "6008b5d8-f9cd-4515-92fa-677dd114c1bc")
 	)
 	(junction
-		(at 85.09 22.86)
+		(at 121.92 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66498855-2720-4728-b7db-c75aee2fee2a")
+	)
+	(junction
+		(at 57.15 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "906518fd-d317-4b5e-9f3c-95f36cb27e5d")
+	)
+	(junction
+		(at 107.95 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9138b6fb-deed-444c-b1cb-9149ab14ee93")
+	)
+	(junction
+		(at 49.53 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ee5536-72de-48eb-832c-355baa2d096e")
 	)
 	(junction
 		(at 78.74 90.17)
@@ -1874,13 +2084,13 @@
 		(uuid "a8638a12-f826-44ff-8ff5-97ec3e35ade1")
 	)
 	(junction
-		(at 95.25 33.02)
+		(at 118.11 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa269599-061e-45c7-a38e-b7bf10120c48")
 	)
 	(junction
-		(at 95.25 22.86)
+		(at 118.11 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba31a132-4043-4a2c-bb54-6656f49ae5ef")
@@ -1898,10 +2108,10 @@
 		(uuid "dedd02fb-bae3-4e1b-be9a-26b9edc5adbf")
 	)
 	(junction
-		(at 48.26 33.02)
+		(at 49.53 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e227f12a-815e-4975-886b-3dc47a210f96")
+		(uuid "e2fd4ffc-7c3a-412a-8177-d548f2fbfe0a")
 	)
 	(junction
 		(at 210.82 25.4)
@@ -1909,9 +2119,21 @@
 		(color 0 0 0 0)
 		(uuid "e366ad33-be48-4e2b-aa69-ee6d4ab3e3eb")
 	)
+	(junction
+		(at 121.92 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a5dd16-d0b5-452e-94be-d15b72d5da64")
+	)
+	(junction
+		(at 121.92 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e1fbf3-d8d5-400a-b20e-21cb8ea4c5cc")
+	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 95.25 31.75)
+			(xy 118.11 33.02) (xy 118.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +2153,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 105.41 31.75)
+			(xy 250.19 78.74) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14874a32-33b2-4868-9459-f416dbe746ab")
+	)
+	(wire
+		(pts
+			(xy 128.27 33.02) (xy 128.27 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1941,23 +2173,33 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 80.01) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15664813-848c-4d4f-9c85-a34088c7f7b9")
-	)
-	(wire
-		(pts
-			(xy 74.93 22.86) (xy 85.09 22.86)
+			(xy 97.79 22.86) (xy 107.95 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b46ed76-d026-4bc4-8d94-6ef49daf0412")
+	)
+	(wire
+		(pts
+			(xy 49.53 143.51) (xy 49.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c39c63-11a0-4c4b-8c64-d3d2b77c925d")
+	)
+	(wire
+		(pts
+			(xy 151.13 26.67) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303f6b72-87ee-4fd5-8430-da4d0fb1a437")
 	)
 	(wire
 		(pts
@@ -1971,13 +2213,33 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 33.02) (xy 85.09 31.75)
+			(xy 107.95 33.02) (xy 107.95 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32028010-9566-435e-b080-3c326347a819")
+	)
+	(wire
+		(pts
+			(xy 49.53 154.94) (xy 49.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3485d237-25ab-434b-bc62-b5fd8b34e54e")
+	)
+	(wire
+		(pts
+			(xy 121.92 152.4) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f774b4-cd2f-4e01-bd9d-5ed834a4ef23")
 	)
 	(wire
 		(pts
@@ -1991,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 105.41 33.02)
+			(xy 118.11 33.02) (xy 128.27 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2041,17 +2303,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 190.5 86.36)
+			(xy 121.92 144.78) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a08cd57-c273-47d6-9c82-e340a01e9178")
+		(uuid "474136d1-eb91-445d-855e-36d390b76bae")
 	)
 	(wire
 		(pts
-			(xy 85.09 22.86) (xy 95.25 22.86)
+			(xy 107.95 22.86) (xy 118.11 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +2333,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 33.02) (xy 85.09 33.02)
+			(xy 109.22 128.27) (xy 121.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b4ecee-21fd-4260-ac3b-a5b9904f8b79")
+	)
+	(wire
+		(pts
+			(xy 97.79 33.02) (xy 107.95 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2353,27 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 22.86) (xy 95.25 24.13)
+			(xy 121.92 152.4) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b6e95c-7b8d-4229-805f-9226b4c2f6f2")
+	)
+	(wire
+		(pts
+			(xy 109.22 152.4) (xy 121.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f71929-9d98-4ee8-bab3-8742cbe16e10")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 118.11 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 22.86) (xy 74.93 24.13)
+			(xy 97.79 22.86) (xy 97.79 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 53.34 35.56)
+			(xy 62.23 35.56) (xy 67.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2121,13 +2413,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 53.34 33.02)
+			(xy 57.15 25.4) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "729e3fca-c4e9-4727-8ebb-7dc496fe59f6")
+		(uuid "6f2b377c-962a-4c3b-8476-63f46484e215")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 220.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749cd458-199c-48a7-b94e-e06de8093e4e")
 	)
 	(wire
 		(pts
@@ -2151,6 +2453,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 151.13) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8dc23e-b1e3-410e-b893-0711f0d5678d")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 49.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d959a65-bb71-4e23-a2db-98faf06475c9")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3b83fb-0543-4382-ae3a-c8c46a6b4399")
+	)
+	(wire
+		(pts
 			(xy 53.34 82.55) (xy 57.15 82.55)
 		)
 		(stroke
@@ -2161,7 +2493,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 22.86) (xy 85.09 24.13)
+			(xy 151.13 25.4) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c69a16-dbed-4ad3-908d-e57b09a2a93b")
+	)
+	(wire
+		(pts
+			(xy 107.95 22.86) (xy 107.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2191,23 +2533,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 33.02) (xy 74.93 31.75)
+			(xy 97.79 33.02) (xy 97.79 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad1fa190-b0bf-4608-a3ac-034edd32de50")
-	)
-	(wire
-		(pts
-			(xy 151.13 26.67) (xy 153.67 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b46acc-880b-4337-8a60-c2607624223f")
 	)
 	(wire
 		(pts
@@ -2221,7 +2553,37 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 22.86) (xy 105.41 22.86)
+			(xy 204.47 78.74) (xy 204.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdec6ae4-a575-42c1-b019-2f69515aab3f")
+	)
+	(wire
+		(pts
+			(xy 55.88 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed86771-4067-4782-ac06-e224dab5f4a5")
+	)
+	(wire
+		(pts
+			(xy 62.23 143.51) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e23b60-3e0e-4850-91ce-19ad55a1a95c")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 128.27 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2251,13 +2613,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 22.86) (xy 105.41 24.13)
+			(xy 128.27 22.86) (xy 128.27 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf2a5504-a7f2-47b1-be7f-1f151c8341b9")
+	)
+	(wire
+		(pts
+			(xy 49.53 135.89) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28a554b-c270-4703-9357-646d5eba3f2d")
 	)
 	(wire
 		(pts
@@ -2281,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 33.02) (xy 95.25 33.02)
+			(xy 107.95 33.02) (xy 118.11 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2663,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 48.26 33.02)
+			(xy 236.22 78.74) (xy 236.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed6d787-a5e3-4078-bd63-ff4889a453d5")
+	)
+	(wire
+		(pts
+			(xy 49.53 25.4) (xy 57.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2301,17 +2683,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 80.01) (xy 173.99 86.36)
+			(xy 62.23 135.89) (xy 49.53 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5c51565-c756-4576-8dd6-3d78979bf703")
+		(uuid "f1d6cfd5-57e3-4f91-904a-6e74c3935518")
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 48.26 35.56)
+			(xy 121.92 128.27) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a9a587-60e1-4efc-9fa4-9cb50a0bffa0")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 62.23 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2331,6 +2723,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 137.16) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba67ffc-b99e-4707-9cff-7cad803cf5ac")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 49.53 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb05f3a-3a8d-47d1-ab64-5e781895b2f3")
+	)
+	(wire
+		(pts
 			(xy 95.25 82.55) (xy 107.95 82.55)
 		)
 		(stroke
@@ -2338,6 +2750,26 @@
 			(type default)
 		)
 		(uuid "ff7c4e2e-2e75-440c-9aa8-1b8643f23c1c")
+	)
+	(label "VBAT_ESC_C"
+		(at 62.23 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03e29dc7-ffba-45fe-81ec-d30c6d790159")
+	)
+	(label "VBAT_BUCK"
+		(at 64.77 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04eed1b0-a68c-4a8d-bc26-e50ebba65fb5")
 	)
 	(label "VFB"
 		(at 173.99 31.75 0)
@@ -2348,6 +2780,16 @@
 			(justify left bottom)
 		)
 		(uuid "0c3dd2b8-f7b5-4508-9845-e187187be9d7")
+	)
+	(label "VBAT_ESC_F"
+		(at 109.22 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f3a9f6-1564-49fb-9593-9e6c5ae37c72")
 	)
 	(label "VBST"
 		(at 198.12 34.29 0)
@@ -2369,6 +2811,76 @@
 		)
 		(uuid "2b55ea61-c258-4f3a-b3ef-d6bee01a91b6")
 	)
+	(label "VBAT_ESC_F"
+		(at 80.01 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50a4b2d5-4a2c-4938-ad46-0fd81c460123")
+	)
+	(label "VBAT_ESC_D"
+		(at 74.93 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1a2408-5801-4f21-bdbf-597ccc926a8b")
+	)
+	(label "VBAT_ESC_H"
+		(at 109.22 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c223c6f-a6e8-40f0-956f-da9de168aaf1")
+	)
+	(label "VBAT_ESC_D"
+		(at 62.23 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60720067-a5d0-46b5-af76-9be151486f40")
+	)
+	(label "VBAT_ESC_C"
+		(at 72.39 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d353feb-2c1e-4d48-97f9-5d6708bc3d0d")
+	)
+	(label "VBAT_ESC_B"
+		(at 62.23 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77e37191-b5cf-400a-8ebc-1e89ef2bb695")
+	)
+	(label "VBAT_ESC_E"
+		(at 77.47 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f2c62fb-d1b7-4b39-b45e-b2c9781eebf2")
+	)
 	(label "VFB"
 		(at 209.55 50.8 0)
 		(effects
@@ -2388,6 +2900,86 @@
 			(justify left bottom)
 		)
 		(uuid "99edf630-044c-49da-8e0d-41050bb2862c")
+	)
+	(label "VBAT_ESC_E"
+		(at 109.22 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c7db10a-56fe-46fe-b3fb-248d25044ec4")
+	)
+	(label "VBAT_ESC_G"
+		(at 109.22 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af785f71-d3fa-4a29-8754-b8cd42ca8dc6")
+	)
+	(label "VBAT_ESC_A"
+		(at 62.23 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b40feb76-4d7a-4f8a-b0b2-ddec1c5d6d26")
+	)
+	(label "VBAT_BUCK"
+		(at 151.13 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be9c3ee5-2ff2-49f3-b019-e42b5f30b288")
+	)
+	(label "VBAT_ESC_G"
+		(at 82.55 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08ccea3-387e-487a-8fba-ee76f6cd9a71")
+	)
+	(label "VBAT_ESC_B"
+		(at 69.85 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d00f3b87-c49c-4943-b367-09067b5a6506")
+	)
+	(label "VBAT_ESC_A"
+		(at 67.31 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d56d24b8-d260-4f92-b39f-a104aedcc11c")
+	)
+	(label "VBAT_ESC_H"
+		(at 85.09 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de1eb06a-f415-4992-bc6f-2ea04c6acbc8")
 	)
 	(label "SW"
 		(at 173.99 26.67 0)
@@ -2584,8 +3176,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 27.94 0)
+		(lib_id "power:GND")
+		(at 220.98 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2593,31 +3185,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "08084d47-2edd-40b8-afdd-7c352f623772")
-		(property "Reference" "C1"
-			(at 97.79 26.67 0)
+		(fields_autoplaced yes)
+		(uuid "07dc5345-1ecf-4c4c-9cb4-77b506968e09")
+		(property "Reference" "#PWR015"
+			(at 220.98 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 97.79 29.21 0)
+		(property "Value" "GND"
+			(at 220.98 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.2152 31.75 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +3220,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 27.94 0)
+			(at 220.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b594dc1-4d86-4c62-89b2-e4cc0b687494")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08084d47-2edd-40b8-afdd-7c352f623772")
+		(property "Reference" "C1"
+			(at 120.65 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 120.65 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.0752 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +3309,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 27.94 0)
+			(at 118.11 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,86 +3335,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 205.74 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113fd5c4-ab31-481b-b39b-15999d2d93b8")
-		(property "Reference" "#PWR016"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 205.74 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33776d7c-1758-44c4-8906-79ee12797da9")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 105.41 27.94 0)
+		(at 128.27 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2754,7 +3346,7 @@
 		(dnp no)
 		(uuid "115542f4-d553-4383-adcb-e405d149a1b3")
 		(property "Reference" "C4"
-			(at 107.95 26.67 0)
+			(at 130.81 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2765,7 +3357,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 107.95 29.21 0)
+			(at 130.81 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2776,7 +3368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.3752 31.75 0)
+			(at 129.2352 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 27.94 0)
+			(at 128.27 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,7 +3390,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 27.94 0)
+			(at 128.27 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,8 +3416,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 173.99 80.01 0)
+		(lib_id "Switch:SW_SPST")
+		(at 62.23 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2833,11 +3425,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a11f47c-59d1-4988-86d3-ed01ae47c8dd")
-		(property "Reference" "#PWR013"
-			(at 173.99 83.82 0)
-			(hide yes)
+		(uuid "1a33ca3f-b7f0-407a-ae4e-eb556428f9f2")
+		(property "Reference" "SW1"
+			(at 62.23 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2846,8 +3436,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 173.99 74.93 0)
+		(property "Value" "FingerTech Switch"
+			(at 67.31 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2857,7 +3447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 80.01 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +3458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 80.01 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,8 +3468,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 173.99 80.01 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,14 +3478,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "2563ce6d-41c5-4149-b576-ed982e08d9ba")
 		)
 		(pin "1"
-			(uuid "105c084a-d98d-47d8-bb53-d8e6752f69f2")
+			(uuid "6c4026fe-388d-49f5-be55-8acdd7bdcae3")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR013")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2974,6 +3567,84 @@
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247b642e-03e0-470b-b58d-e7ab80479ac9")
+		(property "Reference" "#PWR016"
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "666fddc4-8621-4263-b3c0-254bedfdbaee")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3229,8 +3900,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 205.74 86.36 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3238,32 +3910,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d7ab563-3187-4195-9c14-1f48602519a9")
-		(property "Reference" "TP4"
-			(at 208.28 88.3919 0)
+		(uuid "2f153329-309a-47d8-ba7f-6e9d5b748bb2")
+		(property "Reference" "J11"
+			(at 100.33 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 208.28 90.9319 0)
+		(property "Value" "VBAT_ESC_E"
+			(at 96.52 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 86.36 0)
+			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 86.36 0)
+			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,8 +3953,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 205.74 86.36 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,12 +3965,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b42f51c-ad88-47a9-9425-d042686365b7")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "TP4")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3389,7 +4061,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 95.25 22.86 0)
+		(at 118.11 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3400,7 +4072,7 @@
 		(fields_autoplaced yes)
 		(uuid "36e4a15a-56d7-4ead-8f4d-a7718ec9de4f")
 		(property "Reference" "#PWR05"
-			(at 95.25 26.67 0)
+			(at 118.11 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,7 +4083,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 95.25 17.78 0)
+			(at 118.11 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3421,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 22.86 0)
+			(at 118.11 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 22.86 0)
+			(at 118.11 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 95.25 22.86 0)
+			(at 118.11 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,7 +4299,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 39.37 35.56 180)
+		(at 53.34 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3638,7 +4310,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a3af6ae-0e84-458e-89dc-025f8317169d")
 		(property "Reference" "#FLG04"
-			(at 39.37 37.465 0)
+			(at 53.34 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +4321,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.37 40.64 0)
+			(at 53.34 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3659,7 +4331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 35.56 0)
+			(at 53.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +4342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 35.56 0)
+			(at 53.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +4353,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 35.56 0)
+			(at 53.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,8 +4536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 173.99 86.36 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3874,31 +4546,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e80237b-a33a-4c68-9c83-292276387f7d")
-		(property "Reference" "TP2"
-			(at 176.53 88.3919 0)
+		(uuid "3d9df367-a294-481a-a8ab-3ce0c0490a7b")
+		(property "Reference" "J9"
+			(at 69.85 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 176.53 90.9319 0)
+		(property "Value" "VBAT_ESC_B"
+			(at 69.85 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 86.36 0)
+			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,7 +4581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 86.36 0)
+			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,8 +4591,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 173.99 86.36 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3931,12 +4603,176 @@
 			)
 		)
 		(pin "1"
-			(uuid "614ed967-bbeb-4554-bbd5-04d48de9f1bb")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "TP2")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 149.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e9bb494-069e-4d61-a290-75045bddd7c2")
+		(property "Reference" "J15"
+			(at 101.6 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBAT_ESC_H"
+			(at 101.6 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448c80ee-a99b-45d6-8302-7b25f4493715")
+		(property "Reference" "#PWR013"
+			(at 204.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21c7d696-167f-4e17-ab90-3d40ab1e271e")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4102,8 +4938,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 80.01 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4112,30 +4948,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59693537-1b78-4fbb-81ef-0644f832d528")
-		(property "Reference" "#PWR015"
-			(at 190.5 73.66 0)
-			(hide yes)
+		(uuid "584d3360-78c6-455b-a276-aa74b6b83a89")
+		(property "Reference" "J10"
+			(at 69.85 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 190.5 74.93 0)
+		(property "Value" "VBAT_ESC_C"
+			(at 69.85 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 80.01 0)
+			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 80.01 0)
+			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,8 +4993,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 80.01 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,12 +5005,254 @@
 			)
 		)
 		(pin "1"
-			(uuid "afc0077f-49d2-4698-ba6f-dbb1310f501e")
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR015")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f1f37dc-da6c-4587-99a8-3f6bd32cf65c")
+		(property "Reference" "TP3"
+			(at 223.52 87.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 223.52 89.6619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaf42124-5d02-4b71-b281-cf02f9d61c55")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609af7a8-af8a-4b68-a172-c2ab041ebbfb")
+		(property "Reference" "J8"
+			(at 69.85 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBAT_ESC_A"
+			(at 69.85 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c63d271-10fa-4522-b53f-8debd2148204")
+		(property "Reference" "#PWR019"
+			(at 49.53 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18aee3b9-af27-4319-9269-b708e9683624")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4259,8 +5338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ15CA")
-		(at 63.5 55.88 0)
+		(lib_id "power:VBUS")
+		(at 55.88 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4269,29 +5348,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85bd7592-9bbe-4d08-bbf6-f02987d4c14c")
-		(property "Reference" "D1"
-			(at 63.5 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ15CA"
-			(at 63.5 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 63.5 60.96 0)
+		(uuid "8695ea54-0e86-4259-9864-30463e403bd6")
+		(property "Reference" "#PWR018"
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,68 +5360,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 63.5 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
-			(at 63.5 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "828c0f5f-2fcc-4f99-acab-093a418abe02")
-		)
-		(pin "1"
-			(uuid "f5248a0a-8425-4c5e-ae1a-2156398e2bfb")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d3e305c-2057-40c7-8a72-7842435f7a99")
-		(property "Reference" "#PWR032"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 40.64 0)
+		(property "Value" "VBUS"
+			(at 55.88 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4372,7 +5371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 35.56 0)
+			(at 55.88 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +5382,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 35.56 0)
+			(at 55.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 55.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65a53ea-52cb-4623-9404-ac570589a448")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3e305c-2057-40c7-8a72-7842435f7a99")
+		(property "Reference" "#PWR032"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,7 +5471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 35.56 0)
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,8 +5494,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 33.02 0)
+		(lib_id "power:GND")
+		(at 121.92 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4427,9 +5504,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a7b4413-46e3-4d21-84c6-9305d8830534")
-		(property "Reference" "#FLG02"
-			(at 39.37 31.115 0)
+		(uuid "971ed82f-c88d-4666-a531-7080a4361877")
+		(property "Reference" "#PWR022"
+			(at 121.92 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,8 +5516,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 39.37 27.94 0)
+		(property "Value" "GND"
+			(at 121.92 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4450,7 +5527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 33.02 0)
+			(at 121.92 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +5538,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 33.02 0)
+			(at 121.92 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56cb29c9-0cc4-496c-9050-d340ff32b290")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7b4413-46e3-4d21-84c6-9305d8830534")
+		(property "Reference" "#FLG02"
+			(at 49.53 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 33.02 0)
+			(at 49.53 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,6 +5644,167 @@
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 250.19 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b0ecc60-c965-47a3-bccf-0a21067676fc")
+		(property "Reference" "#PWR08"
+			(at 250.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 250.19 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 250.19 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "786fbcc5-8553-4c94-86e1-55581a080076")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c15c847-6e06-431b-8eef-11b8e34eddc6")
+		(property "Reference" "J13"
+			(at 101.6 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBAT_ESC_G"
+			(at 101.6 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4734,7 +6050,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 48.26 33.02 0)
+		(at 57.15 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4745,7 +6061,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2903458-01be-4acf-afc0-62fcb75f7c2f")
 		(property "Reference" "#PWR01"
-			(at 48.26 36.83 0)
+			(at 57.15 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +6072,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 48.26 27.94 0)
+			(at 57.15 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4766,7 +6082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 33.02 0)
+			(at 57.15 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4777,7 +6093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 33.02 0)
+			(at 57.15 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +6104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 33.02 0)
+			(at 57.15 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,6 +6203,85 @@
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb8b1490-a711-46db-a3fc-29c276915f70")
+		(property "Reference" "TP5"
+			(at 252.73 87.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 252.73 89.6619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06f61314-9fe7-43b1-aa2c-3294eb3b02ea")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5053,7 +6448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 33.02 0)
+		(at 118.11 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5064,7 +6459,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0c45896-0ad5-4990-b990-1fd84ce326c9")
 		(property "Reference" "#PWR033"
-			(at 95.25 39.37 0)
+			(at 118.11 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +6470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 38.1 0)
+			(at 118.11 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5085,7 +6480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 33.02 0)
+			(at 118.11 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +6491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 33.02 0)
+			(at 118.11 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +6502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 33.02 0)
+			(at 118.11 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5131,7 +6526,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 27.94 0)
+		(at 97.79 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5141,7 +6536,7 @@
 		(dnp no)
 		(uuid "c0c4f80d-7504-4353-ab38-a728c2c45ddb")
 		(property "Reference" "C3"
-			(at 77.47 26.67 0)
+			(at 100.33 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5152,7 +6547,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 77.47 29.21 0)
+			(at 100.33 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5163,7 +6558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.8952 31.75 0)
+			(at 98.7552 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,7 +6569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 27.94 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +6580,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 27.94 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,6 +6684,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39446ff-a51d-4b38-ba45-d438722e3a20")
+		(property "Reference" "J14"
+			(at 69.85 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBAT_ESC_D"
+			(at 69.85 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 238.76 43.18 0)
 		(unit 1)
@@ -5367,8 +6844,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 151.13 26.67 0)
+		(lib_id "Diode:SMAJ40CA")
+		(at 63.5 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5377,9 +6854,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2c55393-e9df-40ce-920d-2be3bc157e26")
-		(property "Reference" "#PWR08"
-			(at 151.13 30.48 0)
+		(uuid "c98cf640-e3ed-4ef6-a5fd-744b33891e68")
+		(property "Reference" "D1"
+			(at 63.5 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ40CA"
+			(at 63.5 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5389,18 +6886,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 151.13 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 26.67 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 63.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,8 +6897,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 151.13 26.67 0)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 40.0Vr, SMA(DO-214AC)"
+			(at 63.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,103 +6908,16 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 151.13 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "7e969953-b5e4-49b2-9608-4fdc675652c8")
 		)
 		(pin "1"
-			(uuid "5aaa19d4-89fc-4a24-867f-39cf68466180")
+			(uuid "225030b4-d7e4-47c3-84c0-616411c6c6b4")
 		)
 		(instances
 			(project "BeetleBoard"
 				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f043b6f4-173a-4841-9683-d3fed85d3447")
-		(property "Reference" "TP3"
-			(at 193.04 88.3919 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 193.04 90.9319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe713536-0f90-4d87-b2b9-7ab4f6963461")
-		)
-		(instances
-			(project "BeetleBoard"
-				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
-					(reference "TP3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5525,7 +6925,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 58.42 33.02 0)
+		(at 104.14 134.62 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5533,10 +6934,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f361a351-089b-4503-866f-d61904c2d0cd")
-		(property "Reference" "J1"
-			(at 60.96 33.0199 0)
+		(uuid "ce3fa300-62a1-49da-a1fa-c089f74b12d0")
+		(property "Reference" "J12"
+			(at 101.6 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5546,8 +6946,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery Connector"
-			(at 60.96 35.5599 0)
+		(property "Value" "VBAT_ESC_F"
+			(at 101.6 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5558,7 +6958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 33.02 0)
+			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,7 +6969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 33.02 0)
+			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,7 +6980,247 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 33.02 0)
+			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b79c5a6-497f-4213-8cbe-569ad3b51ed6")
+		)
+		(pin "2"
+			(uuid "67e4f008-893c-4c18-a67c-18ee4a604212")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1552b40-7f96-4f33-b04f-cc316b7fecb6")
+		(property "Reference" "TP2"
+			(at 207.01 87.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 207.01 89.6619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e113f851-b4e1-46a2-9652-8c1e3e7c2ab7")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 236.22 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07f8082-a7f3-4555-b555-76d55a1fe7da")
+		(property "Reference" "TP4"
+			(at 238.76 87.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 238.76 89.6619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1ff9918-a160-41c2-9573-84765bd3db4d")
+		)
+		(instances
+			(project "BeetleBoard"
+				(path "/9605da46-1c89-49d6-a09b-d7927d14e15a/ca7e18ec-fa3d-4dbe-9577-def8e404d694"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 72.39 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f361a351-089b-4503-866f-d61904c2d0cd")
+		(property "Reference" "J1"
+			(at 74.93 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery Connector"
+			(at 74.93 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +7247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 27.94 0)
+		(at 107.95 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5617,7 +7257,7 @@
 		(dnp no)
 		(uuid "f450283e-451e-40ca-95ae-6e1f172942aa")
 		(property "Reference" "C2"
-			(at 87.63 26.67 0)
+			(at 110.49 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5628,7 +7268,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 87.63 29.21 0)
+			(at 110.49 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5639,7 +7279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.0552 31.75 0)
+			(at 108.9152 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +7290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 27.94 0)
+			(at 107.95 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,7 +7301,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 27.94 0)
+			(at 107.95 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

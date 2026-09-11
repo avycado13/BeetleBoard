@@ -2222,7 +2222,7 @@
 	)
 	(rectangle
 		(start 135.89 71.12)
-		(end 254 130.81)
+		(end 279.4 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -2234,7 +2234,7 @@
 	)
 	(text "ESC Ports"
 		(exclude_from_sim no)
-		(at 247.65 128.27 0)
+		(at 271.78 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,12 +2259,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c8c2fe2-63a2-450e-945c-9ffdbe36d289")
-	)
-	(junction
-		(at 228.6 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ce86cd4-1068-4ecf-9784-571663b82508")
 	)
 	(junction
 		(at 90.17 39.37)
@@ -2610,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 228.6 100.33)
+			(xy 214.63 100.33) (xy 228.6 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESC B"
+		(property "Value" "ESC F"
 			(at 240.03 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)

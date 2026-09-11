@@ -35,5 +35,13 @@ After taking way too long to understand the difference between PWM and DShot, i 
 ## September 10: added 6 axis IMU
 I was on a huddle with Kian and he told me about the MPU-6050 which is a 6 axis imu. I was debating whether to put an imu on this as it would have been a lot of work to wire up multiple so this board simplifies it alot. it was actually really simple to wire up as it just used i2c (TIL that its pronoucned i squared c) I also added a test point on the 5V Rail and GND.
 I might add a header on the board to connect to a radio reciever as apparently esp32 wifi signals dont work that great.
- ![](https://cdn.hackclub.com/01a08c5c-1dc9-76da-9a88-03068a8e085d/beetleboard-4.png)
+
+![New schematic with IMU](https://cdn.hackclub.com/01a08c5c-1dc9-76da-9a88-03068a8e085d/beetleboard-4.png)
+**Total time spent: 1h**
+
+
+## September 10: Added Power distrubution
+I kinda forgot that the ESCs require a seperate source of power with a higher voltage to actually power the motors, so i added some power distrubution to the board. It goes directly from the battery through a TVS Diode and some capactors to clean up voltage spikes and decouple it then gets split into 8 connectors for the ESCs and one for the buck converter. I also added an SPST switch on the power connector where i can eventually put a FingerTech Switch or just solder them together.
+
+![New power subsheet with distrubution](https://cdn.hackclub.com/01a08e46-c094-7faf-a64d-3834eafe02d6/beetleboard-5.png)
 **Total time spent: 1h**
