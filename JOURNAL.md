@@ -49,3 +49,9 @@ I realized that my original IMU wouldn't be able to handle more than 16G, which 
 
 ![New IMU over SPI](https://cdn.hackclub.com/01a08f7a-3afe-79aa-b7a9-d753bbda1060/beetleboard-6.png)
 **Total time spent: 1.5h**
+
+# September 11: Added port for ExpressLRS Reciever
+I added a connector for an ExpressLRS reciever because ESP32 bluetooth/WiFi is supposedly really unreliable. It should communicate over UART.
+
+![New ELRS Reciever](https://cdn.hackclub.com/01a09315-656c-70c2-9617-f7255ab6a7de/beetleboard-7.png)
+**Total time spent: 0.5h**
