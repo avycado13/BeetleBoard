@@ -5,7 +5,6 @@ description: "a basic board for making versatile beetleweight battlebots"
 created_at: "2026-09-08"
 ---
 
-# September 8
 My friend wants to do more battlebot type things with 5th and 6th graders so I thought I might make a board that has enough motor and servo ports to be useful for all types of bots and not constrained to one. I guess I am calling it BeetleBoard!
  
 # September 8: Added Basic Power Circuitry
