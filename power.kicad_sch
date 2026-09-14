@@ -3077,7 +3077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 200.152 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -3157,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.96 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -3316,7 +3316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.0752 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3397,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 129.2352 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 204.47 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4201,7 +4201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.0852 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4517,7 +4517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 79.7052 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4599,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4682,7 +4682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4919,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 239.7252 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5001,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 212.09 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 67.31 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5322,7 +5322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5874,7 +5874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 65.532 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 200.152 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 241.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6350,7 +6350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 249.8852 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 98.7552 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6747,7 +6747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 67.31 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +6987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
 			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7069,7 +7069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 195.58 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7148,7 +7148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7227,7 +7227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 108.9152 31.75 0)
 			(hide yes)
 			(show_name no)

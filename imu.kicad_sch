@@ -1524,7 +1524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2p5X3X0p83_STM"
+		(property "Footprint" "footprints:LGA-14L_2p5X3X0p83_STM"
 			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1643,7 +1643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 108.9152 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1880,7 +1880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.9852 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1962,7 +1962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.132 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -2200,7 +2200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 55.372 82.55 90)
 			(hide yes)
 			(show_name no)
