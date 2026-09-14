@@ -61,3 +61,10 @@ I assigned the footprints for components and made a really crappy layout for the
 
 ![PCB](https://cdn.hackclub.com/01a09d70-c7a3-7786-b1bc-2a9173752f56/beetleboard-8.png)
 **Total time spent: 0.5h**
+
+# September 14: Redid PCB Layout and Routed
+I redid the layout to be less weird shaped and cheaper to fab. I also routed it in just 2 layers!
+Because its about 100mm by 70mm it should only cost 5 bucks to fab.
+
+![New PCB Layout](https://cdn.hackclub.com/01a0a197-1997-7973-8d8f-44eda1789c8c/beetleboard-9.png)
+**Total time spent: 1.5h**

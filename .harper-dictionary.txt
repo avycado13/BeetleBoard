@@ -6,5 +6,6 @@ ExpressLRS
 PWM
 SPI
 XIAO
+battlebot
 meltybrains
 undervolting
