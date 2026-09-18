@@ -67,3 +67,8 @@ Because its about 100mm by 70mm it should only cost 5 bucks to fab.
 
 ![New PCB Layout](https://cdn.hackclub.com/01a0a197-1997-7973-8d8f-44eda1789c8c/beetleboard-9.png)
 **Total time spent: 1.5h**
+
+# September 17: Wrote README
+Today, I prepped it for shipping and mainly wrote the readme. I don't think I need a photo of the README because you can read that. I added a comprehensive list of features!
+
+**Total time spent: 0.5h**

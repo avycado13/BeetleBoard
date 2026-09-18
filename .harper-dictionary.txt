@@ -7,5 +7,6 @@ PWM
 SPI
 XIAO
 battlebot
+beetleweight
 meltybrains
 undervolting
