@@ -71,4 +71,7 @@ Because its about 100mm by 70mm it should only cost 5 bucks to fab.
 # September 17: Wrote README
 Today, I prepped it for shipping and mainly wrote the readme. I don't think I need a photo of the README because you can read that. I added a comprehensive list of features!
 
+edit: turns out i do :(
+
+![README](https://cdn.hackclub.com/01a0bf7b-d26e-766b-a8b5-6ad9637fb942/beetleboard-11.png)
 **Total time spent: 0.5h**
