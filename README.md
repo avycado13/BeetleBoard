@@ -4,6 +4,7 @@ Ever wanted to build a beetleweight but didn't want the huge mess of wires? No? 
 A perfect board for controlling your beetleweight battlebot using an ESP32.
 
 ![PCB](https://user-cdn.hackclub-assets.com/01a0a197-1997-7973-8d8f-44eda1789c8c/beetleboard-9.png)
+![3D View](https://cdn.hackclub.com/01a0bf82-e3b2-7174-9dcd-bccaf0c52bd3/beetleboard-12.png)
 
 ## Features:
 - 8 ports for ESCs
