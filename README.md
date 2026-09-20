@@ -19,7 +19,7 @@ A perfect board for controlling your beetleweight battlebot using an ESP32.
 ## Why?
 I built this because I saw battlebots at open sauce and thought "I want to make one of those". While looking through things about beetleweights and especially the ones with custom PCBs, I found out that most of the PCBs I found were specifically meant for one design and couldn't really be used for any type of bot. Coincidentally, My friend was trying to run a battlebots elective at our school and would need a control system to test before teaching the students.
 
-## Bill of Materials
+## Bill of Materials (BOM)
 
 | Qty | Reference | Value | Package | Description |
 |----:|-----------|-------|---------|-------------|
@@ -36,7 +36,7 @@ I built this because I saw battlebots at open sauce and thought "I want to make 
 | 1 | R10 | 120kΩ | 0805 | Resistor |
 | 1 | R14 | 100kΩ | 0805 | Resistor |
 | 1 | D1 | SMAJ40CA | SMA | 40V TVS diode (battery reverse/over-voltage protection) |
-| 8 | D2-D9 | PESD5V0V1BB | SOD-323 | 5V ESD protection diodes |
+| 8 | D2-D9 | PESD5V0V1BA | SOD-323 | 5V ESD protection diodes |
 | 1 | J1 | AMASS XT60-F | XT60 | Battery connector |
 | 8 | J2-J7, J16, J17 | ESC signal port | 1×3 pin header 2.54mm | ESC signal power ports A-H |
 | 8 | J8-J15 | VBAT ESC port | Solder wire 2-pin | Motor power ports |
