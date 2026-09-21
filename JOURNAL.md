@@ -74,4 +74,12 @@ Today, I prepped it for shipping and mainly wrote the readme. I don't think I ne
 edit: turns out i do :(
 
 ![README](https://cdn.hackclub.com/01a0bf7b-d26e-766b-a8b5-6ad9637fb942/beetleboard-11.png)
-**Total time spent: 0.5h**
+**Total time spent: 1h**
+
+# September 20: Made better BOM
+
+I already have a BOM in my README, but I went to Octopart and made a better bom and consolidated my parts so i will only have to order from three suppliers: LCSC, Mouser, and Newark.
+
+![Altium BOM Portal](https://cdn.hackclub.com/01a0c145-5ef0-70d0-992e-49a1583e45ae/beetleboard-13.png)
+
+**Total time spent: 1h**
