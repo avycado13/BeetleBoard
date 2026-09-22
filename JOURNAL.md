@@ -78,8 +78,13 @@ edit: turns out i do :(
 
 # September 20: Made better BOM
 
-I already have a BOM in my README, but I went to Octopart and made a better bom and consolidated my parts so i will only have to order from three suppliers: LCSC, Mouser, and Newark.
+I already have a BOM in my README, but I went to Octopart and made a better BOM and consolidated my parts so i will only have to order from three suppliers: LCSC, Mouser, and Newark.
 
 ![Altium BOM Portal](https://cdn.hackclub.com/01a0c145-5ef0-70d0-992e-49a1583e45ae/beetleboard-13.png)
 
 **Total time spent: 1h**
+
+# September 21: Redid Layout
+I redid the layout of the PCB to be neater and changed the solder wire things to be a new custom footprint of 2 5mm circle pads spaced about 5mm apart. I also added M3 Mounting holes offset 6mm x 6mm from each edge. In addition, I also filleted the corners for looks. I forgot to put it when I took the picture but I also added some basic silkscreen.
+![PCB with new layout](https://cdn.hackclub.com/01a0ca3d-5efc-70ac-b011-a76e1461c55b/beetleboard-14.png)
+**Total time spent: 2h**

@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4599,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4682,7 +4682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5001,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 67.31 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6747,7 +6747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 67.31 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +6987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief"
+		(property "Footprint" "footprints:Power_SolderPad_2Pin_P5.08mm_D2.0mm"
 			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
