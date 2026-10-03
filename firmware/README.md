@@ -6,7 +6,7 @@ Comprehensive firmware and modular driver examples for **BeetleBoard**, an ESP32
 
 ## 📋 Hardware Pinout & Architecture
 
-Based directly on the `BeetleBoard.kicad_sch`, `power.kicad_sch`, and `imu.kicad_sch` schematics:
+Based directly on the `BeetleBoard.kicad_sch`, `subsheets/power.kicad_sch`, and `subsheets/imu.kicad_sch` schematics:
 
 | Schematic Net | XIAO Pin | ESP32-C6 GPIO | Direction | Function & Hardware Circuitry |
 |:---|:---:|:---:|:---:|:---|

@@ -6553,7 +6553,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "subsheets/power.kicad_sch"
 			(at 242.57 60.9096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,7 +6619,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "imu.kicad_sch"
+		(property "Sheetfile" "subsheets/imu.kicad_sch"
 			(at 172.72 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)

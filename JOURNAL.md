@@ -86,5 +86,12 @@ I already have a BOM in my README, but I went to Octopart and made a better BOM 
 
 # September 21: Redid Layout
 I redid the layout of the PCB to be neater and changed the solder wire things to be a new custom footprint of 2 5mm circle pads spaced about 5mm apart. I also added M3 Mounting holes offset 6mm x 6mm from each edge. In addition, I also filleted the corners for looks. I forgot to put it when I took the picture but I also added some basic silkscreen.
+
 ![PCB with new layout](https://cdn.hackclub.com/01a0ca3d-5efc-70ac-b011-a76e1461c55b/beetleboard-14.png)
+
 **Total time spent: 2h**
+
+# October 3: Redid PCB Wiring
+I redid the wiring of the entire PCB. I made my power traces a lot thicker and moved components around. I then realized my Vias werent big enough and went back to reroute it with bigger vias.
+![PCB with new Routing](https://cdn.hackclub.com/01a1033f-548c-75db-87fd-389dfcbb73bc/beetleboard-15.png)
+**Total time spent: 1.5h**

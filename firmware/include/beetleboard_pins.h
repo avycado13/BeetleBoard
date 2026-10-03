@@ -8,8 +8,8 @@
  *
  * Generated from BeetleBoard KiCad Schematics:
  * - BeetleBoard.kicad_sch
- * - power.kicad_sch
- * - imu.kicad_sch
+ * - subsheets/power.kicad_sch
+ * - subsheets/imu.kicad_sch
  */
 
 #pragma once
@@ -25,7 +25,7 @@
 #define LED_INACTIVE_LEVEL      HIGH
 
 // =============================================================================
-// Power & Battery Monitoring Circuitry (power.kicad_sch)
+// Power & Battery Monitoring Circuitry (subsheets/power.kicad_sch)
 // =============================================================================
 // VBAT Sensing: Voltage divider with R10 (120kΩ) and R9 (33.2kΩ), C7 (100nF) filter
 // Connected to XIAO Pin D0 (ESP32-C6 GPIO 0 / ADC1_CH0)
@@ -74,7 +74,7 @@ static const uint8_t ESC_PINS[NUM_ESC_CHANNELS] = {
 };
 
 // =============================================================================
-// 6-Axis High-G IMU: LSM6DSV320XTR (imu.kicad_sch)
+// 6-Axis High-G IMU: LSM6DSV320XTR (subsheets/imu.kicad_sch)
 // =============================================================================
 // Communicates over dedicated 4-wire SPI bus (3.3V logic)
 #define PIN_IMU_CS              23   // U3 Pin 12: XIAO D5 (GPIO 23)

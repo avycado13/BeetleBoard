@@ -2161,6 +2161,15 @@
 		(color 0 0 0 0)
 		(uuid "f7e1fbf3-d8d5-400a-b20e-21cb8ea4c5cc")
 	)
+	(bus_entry
+		(at 80.01 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbefae6-8b65-4a14-9d6e-cd2d69b7b1fc")
+	)
 	(wire
 		(pts
 			(xy 118.11 33.02) (xy 118.11 31.75)
@@ -3448,6 +3457,7 @@
 	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 62.23 33.02 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3457,7 +3467,7 @@
 		(dnp no)
 		(uuid "1a33ca3f-b7f0-407a-ae4e-eb556428f9f2")
 		(property "Reference" "SW1"
-			(at 62.23 26.67 0)
+			(at 72.39 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

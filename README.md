@@ -3,8 +3,8 @@
 Ever wanted to build a beetleweight but didn't want the huge mess of wires? No? Too bad. Meet BeetleBoard.
 A perfect board for controlling your beetleweight battlebot using an ESP32.
 
-![PCB](https://cdn.hackclub.com/01a0ca3d-5efc-70ac-b011-a76e1461c55b/beetleboard-14.png)
-![3D View](https://cdn.hackclub.com/01a0c991-fab1-74b5-b602-ffdbdd92f90c/BeetleBoard.png)
+![3D View](https://cdn.hackclub.com/01a1033f-53a9-7adb-8757-cbf6221058e6/beetleboard-3d-rev1.1.png)
+![PCB](https://cdn.hackclub.com/01a1033f-548c-75db-87fd-389dfcbb73bc/beetleboard-15.png)
 
 ## Features:
 - 8 ports for ESCs
@@ -20,7 +20,7 @@ A perfect board for controlling your beetleweight battlebot using an ESP32.
 I built this because I saw battlebots at open sauce and thought "I want to make one of those". While looking through things about beetleweights and especially the ones with custom PCBs, I found out that most of the PCBs I found were specifically meant for one design and couldn't really be used for any type of bot. Coincidentally, My friend was trying to run a battlebots elective at our school and would need a control system to test before teaching the students.
 
 ## Bill of Materials (BOM)
-
+**REVIEWERS PLEASE USE CSV**
 This is just a rough list compiled from my schematic. The actual one is [here](./BOM.csv)
 
 
@@ -46,3 +46,6 @@ This is just a rough list compiled from my schematic. The actual one is [here](.
 | 1 | J18 | ELRS Receiver | BetaFPV Lite | Optional ExpressLRS receiver socket |
 | 1 | SW1 | FingerTech Switch | Solder wire 2-pin | External power switch connection |
 | 5 | TP1-TP5 | Test point | 3mm pad | Test/debug points (VBAT, 5V, GND, 3.3V, VBUS) |
+
+# Firmware
+At the moment, the firmware in the folder is some test code I had AI write. I will most definitely rewrite all the code when I have an actual board to test it on.
